@@ -1,5 +1,5 @@
 
-import { ChangeEvent, FormEvent, useState } from 'react';
+import { ChangeEvent, useState } from 'react';
 import './App.css'
 import iconArrow from './assets/images/icon-arrow.svg';
 
@@ -7,12 +7,6 @@ type elapsedTypes = {
   days: number | string,
   months: number | string,
   years: number | string,
-}
-
-type errorTypes = {
-  erroDD: false,
-  erroMM: false,
-  erroYYYY: false,
 }
 
 const initiaElapsedlState = {
@@ -32,9 +26,9 @@ function App() {
   const [form, setForm] = useState(initiaElapsedlState);
   const [error, setError] = useState(initialErrorState);
 
-  const validDays = typeof form.days !== 'number' && form.days <= 31;
-  const validMonths = typeof form.months !== 'number' && form.months <= 12;
-  const validYears = typeof form.years !== 'number' && form.years <= 2023;
+  const validDays = typeof form.days !== 'number' && Number(form.days) <= 31;
+  const validMonths = typeof form.months !== 'number' && Number(form.months) <= 12;
+  const validYears = typeof form.years !== 'number' && Number(form.years) <= 2023;
 
   function validateForm() {
     if (!validDays || !validMonths || !validYears) {
