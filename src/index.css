@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'poppins';
+  src: url('./assets/fonts/Poppins-Regular.ttf');
+}
+
+:root {
+  background: hsl(0, 0%, 94%);
+  height: 100vh;
+}

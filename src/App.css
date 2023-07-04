@@ -1,0 +1,14 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.error {
+  border: 1px solid hsl(0, 100%, 67%);
+}
+
+label:invalid[focused="true"] {
+  color: hsl(0, 100%, 67%);
+}
