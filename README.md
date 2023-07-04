@@ -7,7 +7,6 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
@@ -34,10 +33,6 @@ Users should be able to:
 ### Screenshot
 
 ![solution](./screenshot.jpg)
-
-### Links
-
-- Live Site URL: [Vercel]([https://your-live-site-url.com](https://age-calculator-8ef3p7nf0-gabrielcardiano.vercel.app/))
 
 ## My process
 
