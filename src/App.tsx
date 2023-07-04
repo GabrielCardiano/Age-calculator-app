@@ -75,7 +75,7 @@ function App() {
   return (
     <div className='bg-off-white font-poppins flex min-h-full flex-col items-center justify-center'>
 
-      <main className='bg-white rounded-border-card mt-7 p-8 text-3xl w-7/12'>
+      <main className='bg-white drop-shadow-lg rounded-border-card mt-7 p-8 text-3xl w-7/12'>
 
         {/* ========= Form-inputs ========= */}
         <form>
@@ -84,7 +84,7 @@ function App() {
               <label className={`${error.errorDD && 'text-red-ligth'} text-xs`}
                 htmlFor="day">DAY</label>
               <input
-                className={`border ${error.errorDD ? 'border-red-ligth' : 'border-light-grey'} rounded-lg w-32 pl-3 pr-8 py-3 font-bold`}
+                className={`border ${error.errorDD ? 'border-red-ligth' : 'border-light-grey'} rounded-lg w-32 pl-3 pr-8 py-3 font-bold `}
                 type="text"
                 name='days'
                 id='days'
