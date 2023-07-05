@@ -164,7 +164,7 @@ function App() {
           Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
         </span>
         <span>
-          Coded by <a href="#" className='italic'>@GabrielCardiano</a>.
+          Coded by <a href="https://www.frontendmentor.io/profile/GabrielCardiano" className='italic'>@GabrielCardiano</a>.
         </span>
       </footer>
     </div>
